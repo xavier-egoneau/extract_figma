@@ -1,0 +1,24 @@
+{
+  "name": "figma-design-system-extractor",
+  "version": "1.0.0",
+  "description": "Extracteur de design system depuis l'API Figma",
+  "main": "extract.js",
+  "scripts": {
+    "start": "node extract.js",
+    "extract": "node extract.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "keywords": [
+    "figma",
+    "design-system",
+    "api",
+    "extractor"
+  ],
+  "author": "Votre nom",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
